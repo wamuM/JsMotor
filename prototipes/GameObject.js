@@ -4,7 +4,7 @@ class GameObject{
         this.x = position[0] || position.x;
         this.y = position[1] || position.y;
         this.r = position[2] || position.r || 0;
-        this.sprite = sprite || {type:"void"}
+        this.sprite = sprite || {type:"void",layer:0}
         this.hitbox = hitbox || false;
         this.childs = childs || false;
     }

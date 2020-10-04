@@ -4,6 +4,7 @@
 - GameObject components 
 - Phases
 - Data processors
+- Compute Objects so they can be draw <--
 - Drawing System
 - Collision System
 - Key Events
